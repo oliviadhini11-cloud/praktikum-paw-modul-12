@@ -52,6 +52,7 @@ class EmployeeController extends Controller
         $messages = [
             'required' => ':Attribute harus diisi.',
             'email' => 'Isi :attribute dengan format yang benar',
+            'email.unique' => 'Email sudah terdaftar, silakan gunakan email lain.',
             'numeric' => 'Isi :attribute dengan angka'
         ];
 
